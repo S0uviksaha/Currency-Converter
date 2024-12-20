@@ -12,12 +12,7 @@ body{
 }
 
 .container{
-    height: 50vh;
-    /* width: 50vw;
-    max-height: 350px;
-    max-width: 400px;
-    min-height: 200px;
-    min-width: 300px; */
+    height: 60vh;
     padding: 1.5rem;
     background-color: wheat;
     border-radius: 1rem;
@@ -27,14 +22,14 @@ body{
     height: 20vh;
 }
 
-.img{
+.image{
     height: 15vh;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.img img{
+.image img{
     height: 13vh;
     border-radius: 50%;
     align-items: center;
@@ -48,35 +43,95 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 100%;
 }
 
 form{
     margin: 1rem 0 1rem 0;
+    width: 95%;
 }
 
 .amount{
-
-}
-
-.dropdown{
-    display: flex;
-    align-items: center;
-    gap: 5%;
+    width: 100%;
+    font-size: 1.2rem;
+    font-weight: 500;
 }
 
 input,select,button{
     width: 100%;
+    border: none;
+    outline: none;
+}
+
+input{
+    border-radius: 0.2rem;
+    border: 1px solid rgba(165, 52, 10, 0.945);
+    padding-left: 2%;
+    height: 1.5rem;
+    width: 98%;
+    font-size: 1rem;
+}
+
+.dropdown{
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    gap: 5%;
+    margin-top: 1rem;
+    width: 100%;
 }
 
 .from{
-    /* display: flex;
-    align-items: center; */
+    width: 39%;
+    font-size: 1.2rem;
+    font-weight: 500;
 }
 
 .to{
+    width: 39%;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
 
+.Select-Container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    width: 100%;
+    padding: 2%;
+    border-radius: 0.5rem;
+    border: 1px solid lightgray;
+}
+
+i{
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    width: 10%;
+}
+
+.Select-Container img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 30%;
 }
 
 .msg{
+    margin: 1rem 0 1rem 0;
+}
 
+.msg p{
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+button{
+    height: 5vh;
+    color: white;
+    background-color: rgba(222, 11, 222, 0.463);
+    font-weight: bolder;
+    font-size: 1.2rem;
+    cursor: pointer;
+    border-radius: 1rem;
 }
